@@ -1,6 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 103">
-<!-- VEXOR Colored Favicon (Transparent) -->
-  <style type="text/css">.cls-1 {fill:url(#SVGID_1_);}</style>
+<!-- SVG created with Arrow, by QuiverAI (https://quiver.ai) -->
+  <style type="text/css">.cls-0 {fill:#040302;}
+.cls-1 {fill:url(#SVGID_1_);}</style>
+  <rect width="120" height="103"/>
+  <rect class="cls-0" x="2" y="3.3" width="115.6" height="96.4"/>
   <linearGradient id="SVGID_1_" x1="5.266" x2="59.45" y1="10.81" y2="79.21" gradientUnits="userSpaceOnUse">
     <stop stop-color="#FF8100" offset="0"/>
     <stop stop-color="#FF6900" offset=".4725"/>

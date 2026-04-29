@@ -9,8 +9,9 @@ const Navbar: React.FC<NavbarProps> = ({ route, setRoute }) => (
   <nav className="flex justify-between items-center px-8 md:px-16 py-10">
     <div 
       onClick={() => { window.scrollTo({top: 0}); setRoute('home'); }} 
-      className="font-bold tracking-tighter text-2xl cursor-pointer hover:text-orange-500 transition-colors text-white"
+      className="font-bold tracking-tighter text-2xl cursor-pointer hover:text-orange-500 transition-colors text-white flex items-center gap-3"
     >
+      <img src="/og-colored-logo.svg" alt="VEXOR Logo" className="w-8 h-8" />
       VEXOR
     </div>
     <div className="flex gap-8 items-center text-sm font-medium">
