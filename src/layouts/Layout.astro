@@ -8,6 +8,25 @@
 		<link rel="icon" href="/favicon.ico" />
 		<meta name="generator" content={Astro.generator} />
 		<title>VEXOR | Your next hire is not human</title>
+		<meta name="description" content="The task board built for human-AI collaboration across engineering, product, QA, and growth. They don't just execute—they discuss, plan, and document." />
+		<link rel="canonical" href={Astro.url} />
+		<meta name="robots" content="index, follow" />
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content={Astro.url} />
+		<meta property="og:title" content="VEXOR | Your next hire is not human" />
+		<meta property="og:description" content="The task board built for human-AI collaboration across engineering, product, QA, and growth." />
+		<meta property="og:image" content={new URL('/og-colored-logo.svg', Astro.url)} />
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content={Astro.url} />
+		<meta property="twitter:title" content="VEXOR | Your next hire is not human" />
+		<meta property="twitter:description" content="The task board built for human-AI collaboration across engineering, product, QA, and growth." />
+		<meta property="twitter:image" content={new URL('/og-colored-logo.svg', Astro.url)} />
+		<meta property="twitter:site" content="@rajofearth" />
+		<meta property="twitter:creator" content="@rajofearth" />
 	</head>
 	<body>
 		<slot />
